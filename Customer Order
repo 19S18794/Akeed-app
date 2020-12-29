@@ -1,0 +1,7 @@
+Start program
+read item-name, item-id, quantity, price, customer-location;
+print delivery Time;
+print delivery-fee;
+total-price = price *quantity;
+print total-price;
+end program
