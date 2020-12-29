@@ -4,4 +4,10 @@ print delivery Time;
 print delivery-fee;
 total-price = price *quantity;
 print total-price;
+if total-price  < =  5.000 then
+print ("Congratulations, you got 10% discount");
+price-after-discount = price - (price*10\100);
+print (“price after discount=” price-after-discount);
+else print ("no discount, total price" = total-price);
+end if
 end program
